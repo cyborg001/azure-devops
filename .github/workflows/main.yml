@@ -28,7 +28,7 @@ jobs:
       # - name: Run install command
       #   run: make install
          
-      - name: Run hola command
-        run: make hola
+      - name: Run hello command
+        run: make hello
 
  
