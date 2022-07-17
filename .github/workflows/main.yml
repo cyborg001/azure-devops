@@ -17,7 +17,7 @@ on:
 jobs:
   build:
     # The type of runner that the job will run on
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -28,7 +28,7 @@ jobs:
       # - name: Run install command
       #   run: make install
          
-      - name: Run all command
-        run: make all
+      - name: Run hello command
+        run: make hello
 
  
