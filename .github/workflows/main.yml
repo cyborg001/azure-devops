@@ -25,8 +25,8 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      # - name: Run install command
-      #   run: make install
+      - name: Run install command
+        run: make install
          
       - name: Run hello command
         run: make hello
